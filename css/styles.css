@@ -1,0 +1,673 @@
+body { 
+	margin: 0; 
+	color: #000; 
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 14px;
+	line-height: 1.4em;
+	background: #fff;
+}
+
+/*.clearfix { clear: both;}*/
+.clearfix {
+	display: block;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+p { 
+	margin: 0; 
+	padding: 6px 0;
+}
+
+a { color: #0f680e; 
+	text-decoration: underline;
+}
+
+a:hover { color: #37a14c;
+	text-decoration: none;
+}
+
+a img { border: none;}
+h1, h2, h3, h4, h5, h6 { 
+	margin: 0; 
+	padding: 0;
+	font-weight: bold;
+	color: #000;
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-family: 'Scada', sans-serif;
+	font-size: 24px;
+}
+
+h2 {
+	font-size: 16px;
+	margin-bottom: 23px;
+}
+
+menu {
+	margin: 0;
+ 	padding: 0;
+ }
+ol, ul, dl, li, dt, dd { 
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+* { 
+	outline: none; 
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+#mainwrapper {
+	min-width: 1020px;
+	overflow-x: hidden;
+}
+
+.resize {
+	margin: 0 auto;
+	max-width: 980px;
+}
+
+header {
+	font-size: 16px;
+	line-height: 1.4em;
+}
+
+header .top p {
+	padding-top: 12px;
+	font-size: 16px;
+	line-height: 1.4em;
+}
+
+header .top {
+	color: #fff;
+	background-color: #37a14c;
+}
+
+header .top .social {
+	padding: 8px 0 4px;
+}
+
+header .top .social li {
+	display: inline-block;
+}
+
+header .top .social li a {
+	display: block;
+	width: 28px;
+	height: 28px;
+	overflow: hidden;
+	text-indent: -2000px;
+	background: url('../img/mine_sprite.png') no-repeat center center;
+}
+
+header .top .social li a.social-vk {
+	background-position: 0 0;
+}
+
+header .top .social li a.social-fb {
+	background-position: -30px 0;
+}
+
+header .top .social li a.social-en {
+	background-position: -60px 0;
+}
+
+header .middle a.logo {
+	display: block;
+	padding: 10px 0;
+	margin-right: 34px;
+}
+
+header nav {
+	background: #37a14c;
+}
+
+header .middle .contacts {
+	width: 268px;
+	margin-right: 25px;
+	padding: 8px 0;
+}
+
+header .middle .contacts .phones {
+	overflow: hidden;
+	padding: 0;
+	color: #0f680e;
+}
+
+header .middle .contacts .phones a {
+	float: right;
+	width: 180px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.25em;
+	text-decoration: none;
+}
+
+header .middle .contacts .skype a {
+	width: 19px;
+	height: 19px;
+	margin-left: 4px;
+	padding-left: 25px;
+	text-decoration: none;
+	font-style: italic;
+	color: #1200ff;
+	background: url(../img/mine_sprite.png) no-repeat left center;
+	background-position: -90px 0;
+}
+
+header .middle .buttons {
+	padding: 12px 0;
+	width: 136px;
+}
+
+header .middle .buttons a {
+	display: block;
+	margin-bottom: 12px;
+	padding: 6px 0;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	border-top: 1px solid #f3ec19;
+	border-bottom: 2px solid #293224;
+	background: #fec60c;
+}
+
+header .middle a.logo-right {
+	margin-top: 26px;
+	max-width: 351px;
+}
+
+header nav {
+	font-size: 0;
+}
+
+header nav menu {
+	border-left: 1px solid #57e974;
+ 	border-right: 1px solid #247634;
+}
+
+header nav li {
+	display: inline-block;
+	width: 20%;
+}
+
+header nav li a {
+	display: block;
+	padding: 12px 0 11px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	text-align: center;
+	border-left: 1px solid #247634;
+ 	border-right: 1px solid #57e974;
+ 	transition: all 0.7s;
+}
+
+header nav li a:hover,
+header nav .active {
+ 	background: #3dc658;
+ 	font-weight: 800;
+ 	color: #fff;
+}
+
+aside {
+ 	float: left;
+ 	width: 230px;
+ 	margin-right: 17px;
+ 	font-family: 'Lobster', cursive;
+}
+
+aside .categories-menu li {
+ 	display: block;
+ 	width: 100%;
+}
+
+aside .categories-menu li:after {
+ 	content: '';
+ 	display: block;
+ 	height: 1px;
+	width: 100%;
+	background: #e7e7e7;
+}
+
+aside .categories-menu li a {
+ 	display: block;
+ 	padding: 18px 0;
+ 	font-size: 20px;
+ 	color: #010101;
+	text-decoration: none;
+}
+
+aside .categories-menu-inside {
+ 	position: relative;
+ }
+
+aside .categories-menu-inside li {
+  display: block;
+  padding-left: 30px;
+ }
+
+aside .categories-menu-inside li:after {
+  content: '';
+ 	display: none;
+ }
+
+aside .categories-menu-inside li a {
+ 	display: block;
+ 	padding: 5px 0 5px;
+ 	font-size: 16px;
+ 	font-weight: normal;
+ 	color: #ff0000;
+ }
+
+aside .categories-menu-inside li {
+ 	position: relative;
+ }
+
+aside .categories-menu-inside li:before {
+  content: '-';
+  display: inline-block;
+  vertical-align: middle;
+  position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	padding: 3px 0 0 18px;
+  color: #ff0000;
+ }
+
+main {
+ 	float: left;
+ 	max-width: 733px;
+ }
+
+ main .minecraft-content {
+	padding-top: 20px;
+	padding-bottom: 45px;
+}
+
+main .minecraft-content .minecraft-picture {
+	overflow: hidden;
+}
+
+main .minecraft-content .minecraft-picture img {
+ 	width: 100%;
+ 	height: 100%;
+}
+
+main .minecraft-content .minecraft-text p {
+ 	padding: 16px 0 0;
+}
+
+main .hr {
+	height: 1px;
+	width: 100%;
+	background: #e7e7e7;
+}
+
+main .minecraft-news {
+	display: block;
+	width: 100%;
+	padding: 25px 0 31px;
+}
+
+main .minecraft-news .minecraft-news-item {
+	float: left;
+	/*display: inline-block;*/
+	max-width: 232px;
+	margin-right: 18px;
+}
+
+main .minecraft-news .minecraft-news-item:last-child {
+	margin-right: 0;
+}
+
+main .minecraft-news .minecraft-news-item .news-header {
+	height: 89px;
+	padding: 14px 7px 4px;
+	border-bottom: 1px solid #57e974;
+	background: linear-gradient(to bottom, #329545, #45bc5c);
+}
+
+main .minecraft-news .minecraft-news-item .news-header span {
+	font-weight: bold;
+	color: #000;
+}
+
+main .minecraft-news .minecraft-news-item .news-header p {
+	padding: 5px 0 0;
+	font-family: 'Scada', sans-serif;
+	line-height: 20px;
+	color: #fff;
+}
+
+footer {
+	font-size: 20px;
+	line-height: 1.4em;
+	color: #000;
+}
+
+footer .footer-content {
+	display: block;
+	padding: 17px 0;
+	width: 100%;
+	color: #fff;
+	background: linear-gradient(to bottom, #fec50d, #f1b107);
+}
+
+footer .footer-content .footer-contacts {
+	width: 268px;
+	color: #000;
+}
+
+footer .footer-content .footer-contacts .phones-footer {
+	font-size: 16px;
+	overflow: hidden;
+	padding: 0;
+}
+
+footer .footer-content .footer-contacts .phones-footer a {
+	float: right;
+	width: 180px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.35em;
+	text-decoration: none;
+	color: #000;
+}
+
+footer .partners-list {
+	display: block;
+	padding: 10px 0 3px;
+	background: linear-gradient(to bottom, #45bb5c, #3d9b50);
+}
+
+footer .partners-list .partners-list-item {
+	display: inline-block;
+	max-width: 221px;
+	margin-right: 41px;
+}
+
+footer .partners-list .partners-list-item:last-child {
+	display: inline-block;
+	max-width: 221px;
+	margin-right: 0;
+}
+
+footer .partners-list .partners-list-item img {
+	width: 100%;
+	max-width: 221px;
+}
+
+footer .copyright {
+	display: block;
+	padding: 22px 0;
+	color: #000;
+}
+
+@media screen and (max-width: 1001px) {
+	.resize {
+		padding: 0 15px;
+	}
+	.pull-left, .pull-right {
+		float: none;
+	}
+	header .top p.pull-left {
+		float: left;
+	}
+	header .top .social.pull-right {
+		float: right;
+	}
+	header .middle a.logo {
+		display: inline-block;
+		margin-left: 125px;
+		margin-right: 22px;
+	}
+	header .middle .contacts, header .middle .buttons {
+		display: inline-block;
+	}
+	header .middle .contacts {
+		margin-right: 22px;
+	}
+	header .middle .buttons {
+		padding: 10px 0 0;
+		vertical-align: top;
+	}
+	header .middle a.logo-right {
+		display: block;
+		margin: 0 auto;
+	}
+	aside, main {
+		float: none;
+		display: block;
+	}
+	aside {
+		margin: 0 auto;
+		width: 100%;
+	}
+	aside .categories-menu li, {
+		text-align: center;
+	}
+	aside .categories-menu li a {
+		padding: 12px 0;
+		text-align: center;
+	}
+	aside .categories-menu .categories-menu-inside li {
+		margin: 0 auto;
+		max-width: 100px;
+	}
+	aside .categories-menu-inside li:before {
+	 	padding: 4px 0 0 18px;
+	}
+	aside .categories-menu .categories-menu-inside li a {
+		padding: 5px 0;
+		font-size: 16px;
+		text-align: left;
+	}
+	aside .categories-menu .categories-menu-inside:last-child {
+		padding-bottom: 10px;
+	}
+	main {
+		margin: 0 auto;
+	}
+	main .minecraft-content {
+		padding: 20px 0;
+	}
+	footer .partners-list .partners-list-item {
+		margin-right: 2px;
+		width: 24%;
+		vertical-align: middle;
+	}
+	footer .partners-list .partners-list-item:last-child {
+		width: 24%;
+		vertical-align: middle;
+	}
+	footer .footer-content {
+		padding: 10px 0;
+	}
+	footer .footer-content .footer-text {
+		float: left;
+	}
+	footer .footer-content .footer-contacts {
+		float: right;
+		margin: 5px auto 0;
+	}
+	footer .copyright {
+		padding: 7px 0;
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	header .middle a.logo {
+		display: inline-block;
+		margin-left: 34px;
+		margin-right: 12px;
+	}
+	menu.resize {
+		padding: 0;
+		font-size: 14px;
+		width: 100%;
+	}
+	h1 {
+		text-align: center;
+	}
+	main .minecraft-content {
+		padding: 20px 0 30px;
+	}
+	main .minecraft-content .minecraft-text p {
+		padding: 10px 0 0;
+	}
+	h2 {
+		margin-bottom: 15px;
+		text-align: center;
+	}
+	main .minecraft-news {
+		padding: 20px 0;
+		text-align: center;
+	}
+	main .minecraft-news .minecraft-news-item,
+	main .minecraft-news .minecraft-news-item:last-child {
+		float: none;
+		display: inline-block;
+	}
+	main .minecraft-news .minecraft-news-item {
+		margin-right: 12px;
+	}
+	main .minecraft-news .minecraft-news-item:last-child {
+		margin-top: 12px;
+	}
+	footer .footer-content {
+		padding: 10px 0;
+	}
+	footer .footer-content .footer-text {
+		float: none;
+		text-align: center;
+		font-size: 18px;
+		line-height: 22px;
+	}
+	footer .footer-content .footer-contacts {
+		float: none;
+		margin: 5px auto 0;
+	}
+	footer .footer-content .footer-contacts .phones-footer a {
+		font-size: 17px;
+		line-height: 28px;
+	}
+	footer .copyright {
+		padding: 5px 0;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 681px) {
+	header .middle a.logo-right {
+		display: inline-block;
+		margin-left: 35px;
+	}
+}
+
+@media screen and (min-width: 573px) and (max-width: 613px) {
+	footer .partners-list .partners-list-item {
+		width: 23.5%;
+		margin-right: 2px;
+	}
+	footer .partners-list .partners-list-item:last-child {
+		width: 23.5%;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	header .top p.pull-left, header .top .social.pull-right {
+		float: none
+	}
+	header .top p {
+		font-size: 14px;
+		text-align: center;
+	}
+	header .top .social {
+		padding-top: 0;
+		text-align: center;
+	}
+	header .middle a.logo, header .middle .contacts, header .middle .buttons {
+		display: block;
+		margin: 0 auto;
+	}
+	header .middle .logo {
+		text-align: center;
+	}
+	header .middle a.logo-right {
+		display: none;
+	}
+	header nav li a {
+		padding: 5px 0;
+		font-size: 14px;
+		line-height: 19px;
+	}
+	h1 {
+		font-size: 20px;
+	}
+	aside .categories-menu li a {
+		padding: 10px 0;
+		font-size: 18px;
+	}
+	main .minecraft-news {
+		padding: 15px 0 15px;
+	}
+	main .minecraft-news .minecraft-news-item {
+		float: none;
+		display: block;
+		margin: 0 auto 8px;
+	}
+	main .minecraft-news .minecraft-news-item:last-child {
+		margin: 0;
+	}
+	footer .footer-content {
+		padding: 7px 0;
+	}
+	footer .partners-list {
+		padding-top: 3px;
+	}
+	footer .partners-list .partners-list-item {
+		width: 23%;
+		margin-right: 2px;
+	}
+	footer .partners-list .partners-list-item:last-child {
+		width: 23%;
+	}
+}
+
+@media screen and (max-width: 390px) {
+	header nav li a {
+		font-size: 12px;
+		line-height: 17px;
+	}
+	header .middle .contacts {
+		padding: 0;
+	}
+	main .minecraft-content {
+		padding: 15px 0 20px;
+	}
+	main .minecraft-content .minecraft-text p {
+		padding: 7px 0 0;
+	}
+	h1 {
+		margin-bottom: 10px;
+		font-size: 18px;
+	}
+}
