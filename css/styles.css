@@ -197,9 +197,6 @@ header .middle a.logo-right {
 
 header nav {
 	font-size: 0;
-}
-
-header nav menu {
 	border-left: 1px solid #57e974;
  	border-right: 1px solid #247634;
 }
@@ -455,6 +452,10 @@ footer .copyright {
 		display: block;
 		margin: 0 auto;
 	}
+	header nav li {
+		height: 100%;
+		vertical-align: middle;
+	}
 	aside, main {
 		float: none;
 		display: block;
@@ -619,7 +620,7 @@ footer .copyright {
 	}
 	header nav li a {
 		padding: 5px 0;
-		font-size: 14px;
+		font-size: 12px;
 		line-height: 19px;
 	}
 	h1 {
@@ -657,7 +658,7 @@ footer .copyright {
 
 @media screen and (max-width: 390px) {
 	header nav li a {
-		font-size: 12px;
+		font-size: 10px;
 		line-height: 17px;
 	}
 	header .middle .contacts {
