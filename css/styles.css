@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,800|Scada:400,700&subset=cyrillic');
 
+* { 
+	outline: none; 
+}
+
 body { 
 	margin: 0; 
 	color: #000; 
@@ -9,7 +13,6 @@ body {
 	background: #fff;
 }
 
-/*.clearfix { clear: both;}*/
 .clearfix {
 	display: block;
 }
@@ -25,15 +28,20 @@ p {
 	padding: 6px 0;
 }
 
-a { color: #0f680e; 
+a { 
+	color: #0f680e; 
 	text-decoration: underline;
 }
 
-a:hover { color: #37a14c;
+a:hover { 
+	color: #37a14c;
 	text-decoration: none;
 }
 
-a img { border: none;}
+a img { 
+	border: none;
+}
+
 h1, h2, h3, h4, h5, h6 { 
 	margin: 0; 
 	padding: 0;
@@ -56,13 +64,11 @@ menu {
 	margin: 0;
  	padding: 0;
  }
+
 ol, ul, dl, li, dt, dd { 
 	margin: 0;
 	padding: 0;
 	list-style: none;
-}
-* { 
-	outline: none; 
 }
 
 .pull-left {
@@ -328,7 +334,6 @@ main .minecraft-news {
 
 main .minecraft-news .minecraft-news-item {
 	float: left;
-	/*display: inline-block;*/
 	max-width: 232px;
 	margin-right: 18px;
 }
@@ -424,93 +429,118 @@ footer .copyright {
 	.resize {
 		padding: 0 15px;
 	}
+
 	.pull-left, .pull-right {
 		float: none;
 	}
+	
 	header .top p.pull-left {
 		float: left;
 	}
+
 	header .top .social.pull-right {
 		float: right;
 	}
+
 	header .middle a.logo {
 		display: inline-block;
 		margin-left: 125px;
 		margin-right: 22px;
 	}
+
 	header .middle .contacts, header .middle .buttons {
 		display: inline-block;
 	}
+
 	header .middle .contacts {
 		margin-right: 22px;
 	}
+
 	header .middle .buttons {
 		padding: 10px 0 0;
 		vertical-align: top;
 	}
+
 	header .middle a.logo-right {
 		display: block;
 		margin: 0 auto;
 	}
+
 	header nav li {
 		height: 100%;
 		vertical-align: middle;
 	}
+
 	aside, main {
 		float: none;
 		display: block;
 	}
+
 	aside {
 		margin: 0 auto;
 		width: 100%;
 	}
+
 	aside .categories-menu li, {
 		text-align: center;
 	}
+
 	aside .categories-menu li a {
 		padding: 12px 0;
 		text-align: center;
 	}
+
 	aside .categories-menu .categories-menu-inside li {
 		margin: 0 auto;
 		max-width: 100px;
 	}
+
 	aside .categories-menu-inside li:before {
 	 	padding: 4px 0 0 18px;
 	}
+
 	aside .categories-menu .categories-menu-inside li a {
 		padding: 5px 0;
 		font-size: 16px;
 		text-align: left;
 	}
+
 	aside .categories-menu .categories-menu-inside:last-child {
 		padding-bottom: 10px;
 	}
+
 	main {
 		margin: 0 auto;
 	}
+
 	main .minecraft-content {
 		padding: 20px 0;
 	}
+
 	footer .partners-list .partners-list-item {
 		margin-right: 2px;
 		width: 24%;
 		vertical-align: middle;
 	}
+
 	footer .partners-list .partners-list-item:last-child {
 		width: 24%;
 		vertical-align: middle;
 	}
+
 	footer .footer-content {
 		padding: 10px 0;
 	}
+
 	footer .footer-content .footer-text {
 		float: left;
 	}
+
 	footer .footer-content .footer-contacts {
 		float: right;
 		margin: 5px auto 0;
 	}
+
 	footer .copyright {
 		padding: 7px 0;
 		font-size: 15px;
@@ -523,56 +553,70 @@ footer .copyright {
 		margin-left: 34px;
 		margin-right: 12px;
 	}
+
 	menu.resize {
 		padding: 0;
 		font-size: 14px;
 		width: 100%;
 	}
+
 	h1 {
 		text-align: center;
 	}
+
 	main .minecraft-content {
 		padding: 20px 0 30px;
 	}
+
 	main .minecraft-content .minecraft-text p {
 		padding: 10px 0 0;
 	}
+
 	h2 {
 		margin-bottom: 15px;
 		text-align: center;
 	}
+
 	main .minecraft-news {
 		padding: 20px 0;
 		text-align: center;
 	}
+
 	main .minecraft-news .minecraft-news-item,
 	main .minecraft-news .minecraft-news-item:last-child {
 		float: none;
 		display: inline-block;
 	}
+
 	main .minecraft-news .minecraft-news-item {
 		margin-right: 12px;
 	}
+
 	main .minecraft-news .minecraft-news-item:last-child {
 		margin-top: 12px;
 	}
+
 	footer .footer-content {
 		padding: 10px 0;
 	}
+
 	footer .footer-content .footer-text {
 		float: none;
 		text-align: center;
 		font-size: 18px;
 		line-height: 22px;
 	}
+
 	footer .footer-content .footer-contacts {
 		float: none;
 		margin: 5px auto 0;
 	}
+
 	footer .footer-content .footer-contacts .phones-footer a {
 		font-size: 17px;
 		line-height: 28px;
 	}
+
 	footer .copyright {
 		padding: 5px 0;
 		font-size: 14px;
@@ -591,6 +635,7 @@ footer .copyright {
 		width: 23.5%;
 		margin-right: 2px;
 	}
+
 	footer .partners-list .partners-list-item:last-child {
 		width: 23.5%;
 	}
@@ -600,57 +645,72 @@ footer .copyright {
 	header .top p.pull-left, header .top .social.pull-right {
 		float: none
 	}
+
 	header .top p {
 		font-size: 14px;
 		text-align: center;
 	}
+
 	header .top .social {
 		padding-top: 0;
 		text-align: center;
 	}
+
 	header .middle a.logo, header .middle .contacts, header .middle .buttons {
 		display: block;
 		margin: 0 auto;
 	}
+
 	header .middle .logo {
 		text-align: center;
 	}
+
 	header .middle a.logo-right {
 		display: none;
 	}
+
 	header nav li a {
 		padding: 5px 0;
 		font-size: 12px;
 		line-height: 19px;
 	}
+
 	h1 {
 		font-size: 20px;
 	}
+
 	aside .categories-menu li a {
 		padding: 10px 0;
 		font-size: 18px;
 	}
+
 	main .minecraft-news {
 		padding: 15px 0 15px;
 	}
+
 	main .minecraft-news .minecraft-news-item {
 		float: none;
 		display: block;
 		margin: 0 auto 8px;
 	}
+
 	main .minecraft-news .minecraft-news-item:last-child {
 		margin: 0;
 	}
+
 	footer .footer-content {
 		padding: 7px 0;
 	}
+
 	footer .partners-list {
 		padding-top: 3px;
 	}
+
 	footer .partners-list .partners-list-item {
 		width: 23%;
 		margin-right: 2px;
 	}
+
 	footer .partners-list .partners-list-item:last-child {
 		width: 23%;
 	}
@@ -661,15 +721,19 @@ footer .copyright {
 		font-size: 10px;
 		line-height: 17px;
 	}
+
 	header .middle .contacts {
 		padding: 0;
 	}
+
 	main .minecraft-content {
 		padding: 15px 0 20px;
 	}
+
 	main .minecraft-content .minecraft-text p {
 		padding: 7px 0 0;
 	}
+
 	h1 {
 		margin-bottom: 10px;
 		font-size: 18px;
